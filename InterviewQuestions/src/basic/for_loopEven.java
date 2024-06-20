@@ -6,11 +6,11 @@ public class for_loopEven {
 	{
 		int a[]= {1,6,5,9,4,7,3};
 		System.out.println("For loop = ");
-		for(int i = 0 ; i< a.length; i++)
+		for(int each:a)
 		{
-			if(a[i]%2==0)
+			if(each==0)
 			{
-				System.out.println(a[i]);
+				System.out.println(each);
 			}
 		}
 	}
